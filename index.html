@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Creating a Modern Portfolio Landing Page with Bootstrap and JavaScript</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+<link rel="stylesheet" href="in.css" />
+<script src="in.js"></script>
+
+  </head>
+  <body>
+    <div id="preloader">
+      <div id="status"> </div>
+    </div>
+    <!-- END PRELOADER -->
+    <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top"><span class="fa fa-arrow-up" aria-hidden="true"></span></a>
+    <!-- navigation -->
+    <!-- start Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#about">
+            <img alt="Marina Marques" class="navbar-brand" src="abdultsd-logo-final1710097797.png"  >
+          </a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ResponsiveNav">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="ResponsiveNav">
+          <ul class="nav navbar-nav">
+            <li><a href="#about-me" class="page-scroll">ABOUT</a></li>
+            <li><a href="#portfolio" class="page-scroll">PORTFOLIO</a></li>
+            <li><a href="#services" class="page-scroll">SERVICES</a></li>
+            <li><a href="#contact" class="page-scroll">CONTACT</a></li>
+          </ul>
+        </div>
+        <!-- end collapse -->
+      </div>
+      <!-- end container fluid -->
+    </nav>
+
+    <!-- end navigation -->
+    <!-- intro header -->
+    <header class="intro">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <!-- start typer hello  -->
+              <div class="brand-heading">
+                <span class="txt-rotate" data-period="100" data-rotate='[ "Hello,", "Olá,", "Hallo,", "Salut,", "Ciao,", "Hola,", "Hej," ]'></span>
+              </div>
+              <!-- end typer hello -->
+              <p class="intro-text">My name is Abdul Aabil.
+                <br> I'm a <span class="fa fa-code" aria-hidden="true"></span> <span class="intro-text-hgl">front-end developer </span> <span class="fa fa-code" aria-hidden="true"> And</span>
+                <br>Video Editor, For past 1 year.<span class="city"></span></p>
+              <!-- start mouse wrap -->
+              <div class="mouse-warp">
+                <a href="#mouse-here" class="page-scroll">
+                  <div class="mouse">
+                    <div class="scroll"></div>
+                  </div>
+                </a>
+              </div>
+              <!-- end mouse wrap -->
+            </div>
+            <!-- end column wrapping -->
+          </div>
+          <!-- end row header -->
+        </div>
+        <!-- end container header -->
+      </div>
+      <!-- end intro body -->
+    </header>
+    <!-- end intro header -->
+    <div id="mouse-here"></div>
+    <!-- only for mouse to fall before the start of the section -->
+    <!-- start about me -->
+    <section id="about-me">
+      <div class="container">
+        <div class="row">
+          <h2>ABOUT</h2>
+          <div class="col-lg-6 about-intro">
+            <div class="about-inner">
+              <div class="about-ct">
+                <img src="img 11.jpg" alt="Marina Marques" class="img-responsive">
+ 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 about-intro-text">
+            <p>I'm a <span>front-end developer</span> and a <span>Video Editor</span>.<br> My first experience with code was at the time everybody had a MySpace profile. I remember struggling with finding the way to change the background-color and
+              have flashy text. I used to spend hours trying to customize it and couldn't even seem to see the time get by. The excitement of having the power to structure pages on my own was amazing. It's just like lego. You start piece by piece, nobody understands
+              what you're building the Skill...<br> Here's to building castles with code .</p>
+              <p>A skilled short-form video editor specializing in creating engaging and dynamic content for social media platforms. Expert in rapid editing techniques and trend-driven storytelling, transforming raw footage into captivating videos that capture audience attention and drive engagement. Passionate about delivering high-quality content that resonates and makes an impact.
+
+              </p>
+            <div class="button-group">
+              <div class="text">Download CV</div>
+            </div>
+          </div>
+        </div>
+        <!-- end row about -->
+      </div>
+      <!-- end container about -->
+      <!-- start count stats -->
+      <section id="counter-stats">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 stats">
+              <span class="fa fa-code" aria-hidden="true"></span>
+              <div class="counter" data-count="900000">0</div>
+              <h5>Lines of code</h5>
+            </div>
+            <div class="col-lg-3 stats">
+              <span class="fa fa-check" aria-hidden="true"></span>
+              <div class="counter" data-count="280">0</div>
+              <h5>Projects done</h5>
+            </div>
+            <div class="col-lg-3 stats">
+              <span class="fa fa-user" aria-hidden="true"></span>
+              <div class="counter" data-count="75">0</div>
+              <h5>Happy clients</h5>
+            </div>
+            <div class="col-lg-3 stats">
+              <span class="fa fa-coffee" aria-hidden="true"></span>
+              <div class="counter" data-count="999">0</div>
+              <h5>Cups of coffee</h5>
+            </div>
+          </div>
+          <!-- end row counter stats -->
+        </div>
+        <!-- end container counter stats -->
+      </section>
+      <!-- end cont stats -->
+    </section>
+    <!-- end about me -->
+    <!-- start work experience -->
+ 
+                  <!-- experience-info -->
+                </div>
+                <!-- experience -->
+              </div>
+              <!-- year -->
+            </div>
+          </div>
+          <!-- end row of two columns -->
+        </div>
+        <!-- end experience container of two columns -->
+      </div>
+      <!-- end container experience -->
+    </section>
+    <!-- end work experience -->
+    <!-- start work portfolio -->
+    <!-- <section id="portfolio">
+      <div class="container-fluid portfolio-ct">
+        <h2>PORTFOLIO</h2>
+        <div class="row">
+           start first portfolio item -->
+          <!-- <div class="col-sm-6 col-md-4 grid-portfolio">
+            <div class="portfolio-item-ct">
+              <div class="thumbnail">
+                <img src="http://marinamarques.pt/img/work-ibvmx.png" alt="Portfolio - IBV MEXICO" class="img-responsive">
+                <div class="textbox-portfolio">
+                  <div class="button-weblink">
+                    <a href="https://ibv-mx.bnpparibas.com/" alt="Portfolio - IBV MEXICO" target="_blank"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                  </div>
+                </div>
+              </div>  -->
+              <section id="services">
+                <div class="container">
+                  <h2>PREVIOUS WORKS</h2>
+              <div class="caption portfolio-details">
+                <h3>E - COMMERCE</h3>
+                <p>Responsive website done for client using.
+                </p>
+                <ul class="portfolio-tags">
+                  <li class="portfolio-tag">HTML</li>
+                  <li class="portfolio-tag">CSS</li>
+                  <li class="portfolio-tag">JAVASCRIPT</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- end first portfolio item -->
+          <!-- start second portfolio item -->
+          <!-- <div class="col-sm-6 col-md-4 grid-portfolio">
+            <div class="portfolio-item-ct">
+              <div class="thumbnail">
+                <img src="http://marinamarques.pt/img/work-areyoufeelinglow.png" alt="Portfolio - ARE YOU FEELING LOW?" class="img-responsive">
+                <div class="textbox-portfolio">
+                  <div class="button-weblink">
+                    <a href="https://shvvffle.github.io/areyoufeelinglow/" target="_blank" alt="Portfolio - ARE YOU FEELING LOW?"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="caption portfolio-details">
+                <h3>STATIC WEBSITE</h3>
+                <p>Landing page for restaurant.
+                </p>
+                <ul class="portfolio-tags">
+                  <li class="portfolio-tag">HTML / CSS</li>
+                  <li class="portfolio-tag">BOOTSTRAP</li>
+                  <li class="portfolio-tag">JAVASCRIPT</li>
+                  <li class="portfolio-tag">SEO</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- end second portfolio item -->
+          <!-- start third portfolio item -->
+          <!-- <div class="col-sm-6 col-md-4 grid-portfolio">
+            <div class="portfolio-item-ct">
+              <div class="thumbnail">
+                <img src="http://marinamarques.pt/img/work-personalWebsite.png" alt="Portfolio - PERSONAL WEBSITE" class="img-responsive">
+                <div class="textbox-portfolio">
+                  <div class="button-weblink">
+                    <a href="#" alt="Portfolio - PERSONAL WEBSITE"><span class="fa fa-link portfolio-link" aria-hidden="true"></span></a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="caption portfolio-details">
+                <h3>PERSONAL WEBSITE</h3>
+                <p>Responsive website.
+                </p>
+                <ul class="portfolio-tags">
+                  <li class="portfolio-tag">HTML / CSS</li>
+                  <li class="portfolio-tag">BOOTSTRAP</li>
+                  <li class="portfolio-tag">JAVASCRIPT</li>
+                  <li class="portfolio-tag">SEO</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- end third portfolio item -->
+        </div>
+        <!-- end row portfolio -->
+      </div>
+      <!-- end container portfolio -->
+    </section>
+    <!-- end work portfolio -->
+    <!-- start services -->
+    <section id="services">
+      <div class="container">
+        <h2>SERVICES</h2>
+        <div class="row">
+          <div class="ct-services">
+            <div class="col-md-4 services-item">
+              <div class="rotate">
+                <span class="fa fa-code" aria-hidden="true"></span>
+                <!-- <i class="fa fa-file-code-o fa-wrapper" aria-hidden="true"></i> -->
+              </div>
+              <h3>Front End Development</h3>
+              <p>Development of responsive websites, Portfolio , landing pages, E commerce.</p>
+            </div>
+            <div class="col-md-4 services-item">
+              <div class="rotate">
+                <span class="fa fa-cut" aria-hidden="true"></span>
+              </div>
+              <h3>Video Editing</h3>
+              <p>Video editing (Premier pro, After effects & Davinci resolve),Short and full form.</p>
+            </div>
+            <div class="col-md-4 services-item">
+              <div class="rotate">
+                <span class="fa fa-line-chart" aria-hidden="true"></span>
+                <!-- <i class="fa fa-search fa-wrapper" aria-hidden="true"></i>-->
+              </div>
+              <h3>Search Engine Optimization</h3>
+              <p>Increase your visibility across all major search engines & local search with SEO techniques.</p>
+            </div>
+          </div>
+          <!-- end row of services -->
+        </div>
+        <!-- end row services section -->
+      </div>
+      <!-- end div services section -->
+    </section>
+    <!-- end services -->
+    <!-- start testimionals -->
+    <section id="testimionals">
+      <div class="testimionals-bg">
+        <div class="container testimionals-bg-opacity">
+          <h2>TESTIMONIALS</h2>
+          <div><span class="fa fa-quote-left quotes" aria-hidden="true"></span>
+          </div>
+          <div id="slider-testimionals" class="carousel slide" data-ride="carousel">
+            <!-- indicators dot nav -->
+            <ol class="carousel-indicators">
+              <li data-target="#slider-testimionals" data-slide-to="0" class="active"></li>
+              <li data-target="#slider-testimionals" data-slide-to="1"></li>
+              <li data-target="#slider-testimionals" data-slide-to="2"></li>
+              <li data-target="#slider-testimionals" data-slide-to="3"></li>
+            </ol>
+            <!-- wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <!-- start first testimional -->
+              <div class="item active">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="carousel-caption">
+                      <p>Marina is always ready to accomplish the impossible in record time.</p>
+                      <p class="client">Emilien, Marketing department - BNP Paribas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end first testimional -->
+              <!-- start second testimional -->
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="carousel-caption">
+                      <p>She's the fastest person in BNPP! Quick as lightning with robust solutions.</p>
+                      <p class="client">Rogier, Sales department - BNP Paribas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end second testimional -->
+              <!-- start third testimional -->
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="carousel-caption">
+                      <p>She shows real commitment and demonstrates entrepreneurship skills as well as innovation abilities.</p>
+                      <p class="client">Gillian, Manager - BNP Paribas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end third testimional -->
+              <!-- start fourth and last testimional -->
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="carousel-caption">
+                      <p>She doesn't give up until she finds a solution for what seems to be impossible.</p>
+                      <p class="client">Ana, Manager - Páginas Amarelas</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end fourth and last testimional -->
+            </div>
+            <!-- end carousel -->
+          </div>
+          <!-- end slider bootstrap -->
+        </div>
+      </div>
+      <!-- end div container testimionals -->
+    </section>
+    <!-- end testimionals -->
+    <!-- start footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <h2>CONTACT</h2>
+          <p>Email : Abduldevelopersupport.com             <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank" alt="instagram"><span class="fa fa-" aria-hidden="true"></span></a>
+          </p>
+          <br>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/abdul-aabil-589286317/" target="_blank" alt="LinkedIn profile"><span class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/Abdul-coder" target="_blank" alt="GitHub profile"><span class="fa fa-github" aria-hidden="true"></span></a>
+            <a href="https://www.instagram.com/journey_with_abdul/" target="_blank" alt="instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+          </div>
+          <p id="copyright"></p>
+        </div>
+        <!-- end row contact -->
+      </div>
+      <!-- end container footer section -->
+    </footer>
+    <!-- end footer -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://shvvffle.github.io/js/jquery.easing.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="script.js"></script>
+  </body>
+</html>
